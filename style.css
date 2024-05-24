@@ -1,0 +1,67 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./img/imgFond.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+.tout{
+    display: flex;
+    justify-content: center;
+    gap: 0.5vw;
+    margin-top: 10vh;
+}
+
+#typeRecherche{
+    width: 5vw;
+}
+
+#recherche{
+    width: 15vw;
+}
+
+#rechercheBtn{
+    background-color: white;
+}
+
+#resultat {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    height: 50vh;
+    gap: 20px; 
+    color: white;
+    align-items: center;
+    margin-top: 5vh;
+
+}
+
+/* ------------------------------------------------------------------MEDIA QUERY TABLETTE---------------------------------------- */
+
+@media screen and (max-width:768px) {
+
+    #typeRecherche{
+        width: 10vw;
+    }
+
+    #recherche{
+        width: 25vw;
+    }
+}
+
+/* ------------------------------------------------------------------MEDIA QUERY MOBILE L---------------------------------------- */
+
+@media screen and (max-width:426px) {
+
+    #typeRecherche{
+        width: 20vw;
+    }
+
+    #recherche{
+        width: 35vw;
+    }
+}

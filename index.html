@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>API musique</title>
+</head>
+<body>
+    <h1>Vous recherchez un Artiste, un Album ou une musique ?</h1>
+    <div class="tout">
+    <select id="typeRecherche">
+        <option value="artist">Artiste</option>
+        <option value="album">Album</option>
+        <option value="track">Musique</option>
+    </select>
+    <input type="text" id="recherche" placeholder="Entrez votre recherche">
+    <button id="rechercheBtn">Rechercher</button>
+</div>
+    <div id="resultat"></div>
+
+
+    <script src="js.js"></script>
+</body>
+</html>
